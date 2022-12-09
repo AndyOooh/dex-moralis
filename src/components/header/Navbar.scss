@@ -1,0 +1,8 @@
+@use '../../styles/mixins';
+
+.nav {
+}
+
+.nav-list {
+  @include mixins.flex-row(1rem, space-between);
+}

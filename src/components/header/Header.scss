@@ -1,0 +1,9 @@
+@use '../../styles/mixins';
+
+.header {
+  @include mixins.flex-row(1rem, space-between);
+  padding: 1rem 2rem;
+  height: 5rem;
+
+  background-color: rgb(154, 154, 212);
+}
